@@ -1,0 +1,48 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+      <group name="testSetFeaturedProducts">
+        <method signature="com.mycompany.test.common.test.CategoryDaoTest.testSetFeaturedProducts(org.broadleafcommerce.core.catalog.domain.Category)" name="testSetFeaturedProducts" class="com.mycompany.test.common.test.CategoryDaoTest"/>
+      </group>
+    </groups>
+    <test name="Command line test">
+      <class name="com.mycompany.test.common.test.CategoryDaoTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="82784" started-at="2012-06-14T22:56:06Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2012-06-14T22:57:29Z">
+        </test-method>
+        <test-method status="PASS" signature="testSetFeaturedProducts(org.broadleafcommerce.core.catalog.domain.Category)" name="testSetFeaturedProducts" duration-ms="266" started-at="2012-06-14T22:57:30Z" finished-at="2012-06-14T22:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.broadleafcommerce.core.catalog.domain.CategoryImpl@9e7e16ce]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestClass()" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2012-06-14T22:57:30Z" finished-at="2012-06-14T22:57:30Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="452" started-at="2012-06-14T22:57:29Z" finished-at="2012-06-14T22:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mycompany.test.common.test.CategoryDaoTest.testSetFeaturedProducts(org.broadleafcommerce.core.catalog.domain.Category)]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()" name="springTestContextBeforeTestClass" is-config="true" duration-ms="16" started-at="2012-06-14T22:56:06Z" finished-at="2012-06-14T22:56:06Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)" name="springTestContextAfterTestMethod" is-config="true" duration-ms="16" started-at="2012-06-14T22:57:30Z" finished-at="2012-06-14T22:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mycompany.test.common.test.CategoryDaoTest.testSetFeaturedProducts(org.broadleafcommerce.core.catalog.domain.Category)]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
